@@ -1,0 +1,35 @@
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content: start;
+    z-index: 3;
+    background-color:#DCB5FF;
+
+}
+.nav-element{
+    width:80px;
+    height:100%;
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+.nav-element:hover{
+    background-color: #E8DFCA;
+}
+.nav-element a img{
+    width:20px;
+}
+.nav-element a{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    color:black;
+    margin-top:20px;
+}

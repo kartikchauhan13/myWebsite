@@ -8,42 +8,67 @@
     <link href="styles/general.css" rel="stylesheet" type="text/css" />
     <link href="styles/projects.css" rel="stylesheet" type="text/css" />
     <link href="styles/intro.css" rel="stylesheet" type="text/css" />
-    <link href="styles/sidebar.css" rel="stylesheet" type="text/css" />
+    <link href="styles/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="styles/footer.css" rel="stylesheet" type="text/css" />
+    
+    
 
 
 
 </head>
 
 <body>
+    <section class="navbar">
+            <div class="nav-element" title="Home Page">
+                <a href="#intro-page">
+                    <img src="pictures/home.png" alt="home icon">
+                    <p>Home</p>
+                    
+                </a>
+            </div>
+            <div class="nav-element" title="Project section">
+                
+                <a href="#project-grid-title">
+                    <img src="pictures/project.png" alt="project pic">
+                    <p>Projects</p>
+                </a>
+            </div>
+            <div class="nav-element" title="contact">
+                <a href="#footer" >
+                    <img src="pictures/mail.png" alt="Mail">
+                    <p>Contact</p>
+                </a>
+            </div>
+            <div class="nav-element" title="Open linkedin profile">
+                <a href="https://www.linkedin.com/in/kcmail823" target="_blank">
+                    <img src="pictures/linkedin.png" alt="linkedin">
+                    <p>Linkedin</p>
+                </a>
+            </div>
+            <div class="nav-element" id="github-tab" title="Open github profile ">
+                <a href="https://www.github.com/kartikchauhan13" target="_blank">
+                    <img src="pictures/github.png" alt="github">
+                    <p>Github</p>
+                </a>
+            </div>
+        
+    </section>
+    
     <section class="intro-page" id="intro-page">
         <div class="introduction">
             <p class="hover-1">Hi,</p>
             <p>I am Kartik,</p>
             <p>Web Developer</p>
         </div>
+        <p>i build wesites and web applications </p>
     </section>
 
-    <section class="sidebar">
-        <div class="nav-box">
-            <div class="nav-element">
-                <a href="#intro-page">Home</a>
-            </div>
-            <div class="nav-element">
-                
-                <a href="#project-grid-title">Projects</a>
-            </div>
-            <div class="nav-element">
-                Contact
-            </div>
-            <div class="nav-element">
-                About
-            </div>
-        </div>
-    </section>
+    
 
     <div id="project-grid-title">
         PROJECTS
     </div>
+    
     <div class="project-grid">
 
 
@@ -64,12 +89,12 @@
 
         <div class="project-card">
             <div class="pic-box">
-                pic
+                <img src="pictures/blogpic.jpg" alt="">
             </div>
             <div class="info-card">
                 <div class="title-card">
-                    <p class="title">Youtube clone </p>
-                    <p class="time">Sept-2022</p>
+                    <p class="title">Blogs project </p>
+                    <p class="time">july-August,2022</p>
                 </div>
                 <div class="info">
                     A clone project of one of the most visited websites Youtube
@@ -78,7 +103,7 @@
         </div>
         <div class="project-card">
             <div class="pic-box">
-                pic
+               <img src="pictures/blogpic.jpg" alt="">
             </div>
             <div class="info-card">
                 <div class="title-card">
@@ -133,6 +158,10 @@
             </div>
         </div>
     </div>
+
+    <section id="footer">
+        footer
+    </section>
 
     <script src="script.js"></script>
 </body>
