@@ -6,9 +6,11 @@
     height:80px;
     display:flex;
     align-items:center;
-    justify-content: start;
+    justify-content:start;
     z-index: 3;
     background-color:#DCB5FF;
+    border-bottom:0.4px solid grey;
+    
 
 }
 .nav-element{
